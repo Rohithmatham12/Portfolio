@@ -7,11 +7,19 @@ const ScrollUp = () => {
         if (this.scrollY >= 560) scrollUp.classList.add 
         ("show-scroll");
         else scrollUp.classList.remove("show-scroll");
+        
     });
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+    
   return (
-    <a href="#" className="scrollup">
-        <i className="uil uil-arrow-up scrollup_icon"></i>
-    </a>
+    <button onClick={scrollToTop} className="scrollup">
+      <i className="uil uil-arrow-up scrollup_icon"></i>
+    </button>
   )
 }
 
