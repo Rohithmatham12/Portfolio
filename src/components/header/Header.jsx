@@ -36,9 +36,9 @@ const Header = ({ isDarkMode, toggleTheme }) => {
         document.body.classList.toggle('dark-mode', isDarkMode);
     }, [isDarkMode]);
 
-    const toggleTheme = () => {
-        setIsDarkMode(!isDarkMode);
-    };
+    // const toggleTheme = () => {
+    //     setIsDarkMode(!isDarkMode);
+    // };
 
     return (
         <header className="header">
