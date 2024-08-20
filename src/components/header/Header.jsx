@@ -15,7 +15,7 @@ const Header = ({ isDarkMode, toggleTheme }) => {
     /* ===== Toggle Menu ===== */
     const[Toggle, showMenu] = useState(false);
     const[activeNav, setActiveNav] = useState("#home");
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    /*const [isDarkMode, setIsDarkMode] = useState(false);*/
 
     useEffect(() => {
         const header = document.querySelector(".header");
