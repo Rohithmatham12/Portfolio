@@ -2,12 +2,19 @@
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.5rem;
-    font-size: 1rem;
+    font-size: var(--h3-font-size);
     color: var(--title-color);
-    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    transition: 0.3s;
   }
   
   .theme-switch:hover {
     color: var(--title-color-dark);
+  }
+  
+  .theme-switch i {
+    font-size: 1.25rem;
   }
