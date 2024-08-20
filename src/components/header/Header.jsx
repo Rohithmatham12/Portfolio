@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
 
 
@@ -13,6 +13,30 @@ const Header = () => {
     /* ===== Toggle Menu ===== */
     const[Toggle, showMenu] = useState(false);
     const[activeNav, setActiveNav] = useState("#home");
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    useEffect(() => {
+        const header = document.querySelector(".header");
+        const scrollHeader = () => {
+            if (window.scrollY >= 80) {
+                header.classList.add("show-header");
+            } else {
+                header.classList.remove("scroll-header");
+            }
+        };
+
+        window.addEventListener("scroll", scrollHeader);
+
+        return () => window.removeEventListener("scroll", scrollHeader);
+    }, []);
+
+    useEffect(() => {
+        document.body.classList.toggle('dark-mode', isDarkMode);
+    }, [isDarkMode]);
+
+    const toggleTheme = () => {
+        setIsDarkMode(!isDarkMode);
+    };
 
     return (
         <header className="header">
@@ -62,6 +86,14 @@ const Header = () => {
                                 <i className="uil uil-message nav_icon"></i> Contact
                             </a>
                         </li>
+
+                        <li className="nav_item">
+                            <button onClick={toggleTheme} className="nav_link theme-toggle">
+                                <i className={`uil ${isDarkMode ? 'uil-sun' : 'uil-moon'} nav_icon`}></i>
+                                {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+                            </button>
+                        </li>
+                        
                     </ul>
 
                     <i class="uil uil-times nav_close"  onClick={() => showMenu(!Toggle)}></i>
