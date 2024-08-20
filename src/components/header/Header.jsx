@@ -17,20 +17,20 @@ const Header = ({ isDarkMode, toggleTheme }) => {
     const[activeNav, setActiveNav] = useState("#home");
     /*const [isDarkMode, setIsDarkMode] = useState(false);*/
 
-    useEffect(() => {
-        const header = document.querySelector(".header");
-        const scrollHeader = () => {
-            if (window.scrollY >= 80) {
-                header.classList.add("show-header");
-            } else {
-                header.classList.remove("scroll-header");
-            }
-        };
+    // useEffect(() => {
+    //     const header = document.querySelector(".header");
+    //     const scrollHeader = () => {
+    //         if (window.scrollY >= 80) {
+    //             header.classList.add("show-header");
+    //         } else {
+    //             header.classList.remove("scroll-header");
+    //         }
+    //     };
 
-        window.addEventListener("scroll", scrollHeader);
+    //     window.addEventListener("scroll", scrollHeader);
 
-        return () => window.removeEventListener("scroll", scrollHeader);
-    }, []);
+    //     return () => window.removeEventListener("scroll", scrollHeader);
+    // }, []);
 
     // useEffect(() => {
     //     document.body.classList.toggle('dark-mode', isDarkMode);
