@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
+import ThemeSwitch from "../themeswitch/ThemeSwitch";
 
 
-const Header = () => {
+
+const Header = ({ isDarkMode, toggleTheme }) => {
     /* ===== Change Background Header ===== */
     window.addEventListener("scroll", function () { const header = document.querySelector(".header");
     // when the scroll is higher than 200 viewport height, add the scroll-header class to a tag with the header tag
@@ -87,13 +89,10 @@ const Header = () => {
                             </a>
                         </li>
 
-                        <li className="nav_item">
-                            <button onClick={toggleTheme} className="nav_link theme-toggle">
-                                <i className={`uil ${isDarkMode ? 'uil-sun' : 'uil-moon'} nav_icon`}></i>
-                                {isDarkMode ? 'Light Mode' : 'Dark Mode'}
-                            </button>
+                        <li className="nav__item">
+                            <ThemeSwitch isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
                         </li>
-                        
+
                     </ul>
 
                     <i class="uil uil-times nav_close"  onClick={() => showMenu(!Toggle)}></i>

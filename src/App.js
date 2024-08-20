@@ -11,7 +11,7 @@ import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
-import ThemeSwitch from "./components/themeswitch/ThemeSwitch";
+/*import ThemeSwitch from "./components/themeswitch/ThemeSwitch";*/
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -34,8 +34,7 @@ const App = () => {
   return (
     
     <>
-    <Header />
-    <ThemeSwitch isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+    <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
     <main className='main'>
     <Home />
     <About />

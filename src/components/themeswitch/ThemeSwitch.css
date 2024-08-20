@@ -2,12 +2,22 @@
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.5rem;
-    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: var(--normal-font-size);
     color: var(--title-color);
-    transition: color 0.3s ease;
+    font-weight: var(--font-medium);
+    transition: 0.3s;
   }
   
   .theme-switch:hover {
     color: var(--title-color-dark);
+  }
+  
+  .theme-switch__text {
+    margin-left: 0.5rem;
+  }
+  
+  .nav__icon {
+    font-size: 1.2rem;
   }
