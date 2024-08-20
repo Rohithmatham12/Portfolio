@@ -2,11 +2,12 @@
     background: none;
     border: none;
     cursor: pointer;
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
     display: flex;
     align-items: center;
-    font-size: var(--normal-font-size);
-    color: var(--title-color);
-    font-weight: var(--font-medium);
+    justify-content: center;
+    padding: 0.5rem;
     transition: 0.3s;
   }
   
@@ -14,10 +15,6 @@
     color: var(--title-color-dark);
   }
   
-  .theme-switch__text {
-    margin-left: 0.5rem;
-  }
-  
-  .nav__icon {
-    font-size: 1.2rem;
+  .theme-switch i {
+    font-size: 1.25rem;
   }
