@@ -1,0 +1,13 @@
+.theme-switch {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: var(--title-color);
+    transition: color 0.3s ease;
+  }
+  
+  .theme-switch:hover {
+    color: var(--title-color-dark);
+  }
