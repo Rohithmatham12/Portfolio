@@ -27,9 +27,9 @@ const App = () => {
     document.body.classList.toggle('dark-mode', isDarkMode);
   }, [isDarkMode]);
 
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-  };
+  // const toggleTheme = () => {
+  //   setIsDarkMode(!isDarkMode);
+  // };
 
   return (
     
