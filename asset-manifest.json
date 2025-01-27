@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d946bdac.css",
+    "main.js": "/Portfolio/static/js/main.dd2a86f3.js",
+    "static/media/work1.png": "/Portfolio/static/media/work1.b1216bc33b3dbfb630bc.png",
+    "static/media/work4.png": "/Portfolio/static/media/work4.f2bb1603e93068743662.png",
+    "static/media/work5.png": "/Portfolio/static/media/work5.1a5b7977b9cda04859a9.png",
+    "static/media/Rohith-Cv.pdf": "/Portfolio/static/media/Rohith-Cv.266281a93dd35f939947.pdf",
+    "static/media/about.jpeg": "/Portfolio/static/media/about.f59932fc4b916ff99ca4.jpeg",
+    "static/media/profile.jpeg": "/Portfolio/static/media/profile.f59932fc4b916ff99ca4.jpeg",
+    "static/media/work2.png": "/Portfolio/static/media/work2.e3ff5990161df282ac3d.png",
+    "static/media/work3.png": "/Portfolio/static/media/work3.a1cc7023398ff085b000.png",
+    "index.html": "/Portfolio/index.html",
+    "main.d946bdac.css.map": "/Portfolio/static/css/main.d946bdac.css.map",
+    "main.dd2a86f3.js.map": "/Portfolio/static/js/main.dd2a86f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d946bdac.css",
+    "static/js/main.dd2a86f3.js"
+  ]
+}
