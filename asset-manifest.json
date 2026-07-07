@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a44ad6d5.css",
-    "main.js": "/Portfolio/static/js/main.cd5bfb38.js",
+    "main.css": "/Portfolio/static/css/main.75d1d48c.css",
+    "main.js": "/Portfolio/static/js/main.0a00e496.js",
     "static/media/work1.png": "/Portfolio/static/media/work1.b1216bc33b3dbfb630bc.png",
     "static/media/work5.png": "/Portfolio/static/media/work5.1a5b7977b9cda04859a9.png",
     "static/media/Rohith-Cv.pdf": "/Portfolio/static/media/Rohith-Cv.266281a93dd35f939947.pdf",
+    "static/media/travelm8.png": "/Portfolio/static/media/travelm8.45161bf59c01fdca1001.png",
     "static/media/about.jpeg": "/Portfolio/static/media/about.f59932fc4b916ff99ca4.jpeg",
     "static/media/profile.jpeg": "/Portfolio/static/media/profile.f59932fc4b916ff99ca4.jpeg",
+    "static/media/contextos.png": "/Portfolio/static/media/contextos.db24c3bb2aff144474a9.png",
     "index.html": "/Portfolio/index.html",
-    "main.a44ad6d5.css.map": "/Portfolio/static/css/main.a44ad6d5.css.map",
-    "main.cd5bfb38.js.map": "/Portfolio/static/js/main.cd5bfb38.js.map"
+    "main.75d1d48c.css.map": "/Portfolio/static/css/main.75d1d48c.css.map",
+    "main.0a00e496.js.map": "/Portfolio/static/js/main.0a00e496.js.map"
   },
   "entrypoints": [
-    "static/css/main.a44ad6d5.css",
-    "static/js/main.cd5bfb38.js"
+    "static/css/main.75d1d48c.css",
+    "static/js/main.0a00e496.js"
   ]
 }
