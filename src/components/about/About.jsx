@@ -18,7 +18,7 @@ const About = () => {
           <Info />
 
           <p className="about_description">
-          Full-stack developer and CS grad student building AI developer tooling &mdash; creator of{" "}
+          Forward Deployed Engineer and CS grad student building AI developer tooling &mdash; creator of{" "}
           <a href="https://github.com/Rohithmatham12/ContextOS" target="_blank" rel="noopener noreferrer">ContextOS</a>,
           an open-source context engine for AI coding agents, and{" "}
           <a href="https://travelm8app.vercel.app" target="_blank" rel="noopener noreferrer">TravelM8</a>,

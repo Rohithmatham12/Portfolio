@@ -1,11 +1,12 @@
 import Work1 from "../../assets/work1.png";
 import Work5 from "../../assets/work5.png";
+import ContextOSImg from "../../assets/contextos.png";
+import TravelM8Img from "../../assets/travelm8.png";
 
 export const projectsData = [
     {
       id: 1,
-      icon: "bx bx-terminal",
-      tileClass: "work_tile-1",
+      image: ContextOSImg,
       title: "ContextOS",
       description: "Open-source context engine that scans repos and builds task-scoped context packs for Claude Code, Codex, Cursor, and Aider.",
       category: "ai",
@@ -14,8 +15,7 @@ export const projectsData = [
 
     {
       id: 2,
-      icon: "bx bx-map-alt",
-      tileClass: "work_tile-2",
+      image: TravelM8Img,
       title: "TravelM8",
       description: "AI-powered road trip copilot on AWS serverless + Neon Postgres, built entirely on free-tier APIs.",
       category: "ai",

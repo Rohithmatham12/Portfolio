@@ -37,7 +37,7 @@ const Qualification = () => {
                             <h3 className="qualification_title">Masters in Computer Science</h3>
                             <span className="qualification_subtitle">California State University-DH</span>
                             <div className="qualification_calender">
-                                <i className="uil uil-calendar-alt"></i> 2023 - Present
+                                <i className="uil uil-calendar-alt"></i> Aug 2023 - May 2025
                             </div>
                         </div>
                         <div>
@@ -99,14 +99,46 @@ const Qualification = () => {
                     
                 </div>
 
-                <div className={toggleState === 2 ? "qualification_content qualification_content-active" 
+                <div className={toggleState === 2 ? "qualification_content qualification_content-active"
                 : "qualification_content "}>
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">Database Analyst - Reservations</h3>
+                            <h3 className="qualification_title">Graduate Student Assistant</h3>
                             <span className="qualification_subtitle">Loker Student Union</span>
                             <div className="qualification_calender">
-                                <i className="uil uil-calendar-alt"></i> 2024 - Present
+                                <i className="uil uil-calendar-alt"></i> Apr 2024 - Present
+                            </div>
+                        </div>
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <div className="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 className="qualification_title">Blockchain &amp; Web3 Security Research Extern</h3>
+                            <span className="qualification_subtitle">Webacy Inc. (via Extern), Remote</span>
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i> Aug 2024 - Sep 2024
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="qualification_data">
+                        <div>
+                            <h3 className="qualification_title">Full Stack Developer Intern</h3>
+                            <span className="qualification_subtitle">Site Service Software, Remote</span>
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i> Aug 2024 - Oct 2024
                             </div>
                         </div>
                         <div>
@@ -127,19 +159,18 @@ const Qualification = () => {
                             <h3 className="qualification_title">Software Engineer</h3>
                             <span className="qualification_subtitle">Infosys</span>
                             <div className="qualification_calender">
-                                <i className="uil uil-calendar-alt"></i> 2023
+                                <i className="uil uil-calendar-alt"></i> Dec 2022 - Jul 2023
                             </div>
                         </div>
-                        
-                    </div>
 
+                    </div>
 
                     <div className="qualification_data">
                         <div>
                             <h3 className="qualification_title">AWS Cloud - Virtual Internship</h3>
-                            <span className="qualification_subtitle">AICTE</span>
+                            <span className="qualification_subtitle">AWS &amp; AICTE</span>
                             <div className="qualification_calender">
-                                <i className="uil uil-calendar-alt"></i> 2021
+                                <i className="uil uil-calendar-alt"></i> Jul 2021 - Dec 2021
                             </div>
                         </div>
                         <div>
@@ -148,7 +179,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    
+
                 </div>
             </div>
         </div>

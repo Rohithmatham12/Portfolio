@@ -39,6 +39,8 @@
 
 .work_img {
     width: 295px;
+    height: 165px;
+    object-fit: cover;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }

@@ -54,7 +54,7 @@ const Data = () => {
                   ></path>
                 </svg>
         </h1>
-        <h3 className="home_subtitle">Software Engineer &middot; AI Tooling &amp; Open Source</h3>
+        <h3 className="home_subtitle">Forward Deployed Engineer &middot; AI Tooling &amp; Open Source</h3>
         <p className="home_description">
             I build AI developer tools and contribute to open source at Apple, Meta, NVIDIA, and AMD.
             Creator of ContextOS and TravelM8.
