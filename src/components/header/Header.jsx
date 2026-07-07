@@ -48,6 +48,11 @@ const Header = ({ isDarkMode, toggleTheme }) => {
                   </a>
                 </li>
                 <li className="nav__item">
+                  <a href="#open-source" onClick={() => setActiveNav('#open-source')} className={activeNav === "#open-source" ? "nav__link active-link" : "nav__link"}>
+                    Open Source
+                  </a>
+                </li>
+                <li className="nav__item">
                   <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
                     Contact
                   </a>

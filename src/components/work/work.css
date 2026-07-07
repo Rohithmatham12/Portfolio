@@ -29,6 +29,8 @@
 }
 
 .work_card {
+    width: 335px;
+    max-width: 100%;
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
@@ -41,10 +43,49 @@
     margin-bottom: var(--mb-1);
 }
 
+.work_tile {
+    width: 295px;
+    height: 165px;
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work_tile i {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.work_tile-1 {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+.work_tile-2 {
+    background: linear-gradient(135deg, #0ea5e9, #14b8a6);
+}
+
+.work_tile-3 {
+    background: linear-gradient(135deg, #ec4899, #f97316);
+}
+
 .work_title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+}
+
+.work_description {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    margin-bottom: var(--mb-1);
+    line-height: 1.5;
+}
+
+.work_links {
+    display: flex;
+    column-gap: 1rem;
 }
 
 .work_button {
@@ -103,10 +144,11 @@
         grid-template-columns: 1fr;
     }
 
-    .work_img {
+    .work_img,
+    .work_tile {
         width: 100%;
     }
-    
+
   }
 
   /* For small devices */

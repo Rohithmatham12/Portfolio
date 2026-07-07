@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css";
-import AboutImg from "/Users/rohithmatam/Documents/GitHub/Portfolio/src/assets/about.jpeg";
-import CV from "/Users/rohithmatam/Documents/GitHub/Portfolio/src/assets/Rohith-Cv.pdf";
+import AboutImg from "../../assets/about.jpeg";
+import CV from "../../assets/Rohith-Cv.pdf";
 import Info from './Info';
 
 const About = () => {
@@ -18,9 +18,13 @@ const About = () => {
           <Info />
 
           <p className="about_description">
-          Full-stack developer, with a CS background eager to bridge theory and practice with AI/ML. 
-          Skilled in Java, SQL, React, and networking. Passionate learner, following industry advancements and 
-          seeking to leverage CS knowledge for real-world technological solutions.
+          Full-stack developer and CS grad student building AI developer tooling &mdash; creator of{" "}
+          <a href="https://github.com/Rohithmatham12/ContextOS" target="_blank" rel="noopener noreferrer">ContextOS</a>,
+          an open-source context engine for AI coding agents, and{" "}
+          <a href="https://travelm8app.vercel.app" target="_blank" rel="noopener noreferrer">TravelM8</a>,
+          an AI-powered road trip planner. Active open-source contributor with merged pull requests to Apple, Meta,
+          NVIDIA, and AMD repositories. Comfortable across Python, TypeScript, React, and AWS serverless
+          infrastructure, and always chasing the gap between research and shipped product.
 
              <br></br></p>
 

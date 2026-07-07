@@ -1,46 +1,50 @@
 import Work1 from "../../assets/work1.png";
-import Work2 from "../../assets/work2.png";
-import Work3 from "../../assets/work3.png";
-import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 
 export const projectsData = [
     {
       id: 1,
-      image: Work2,
-      title: "NFT Website",
-      category: "web",
-      link: "https://github.com/Rohithmatham12/NFT_Website",
+      icon: "bx bx-terminal",
+      tileClass: "work_tile-1",
+      title: "ContextOS",
+      description: "Open-source context engine that scans repos and builds task-scoped context packs for Claude Code, Codex, Cursor, and Aider.",
+      category: "ai",
+      link: "https://github.com/Rohithmatham12/ContextOS",
     },
 
     {
       id: 2,
-      image: Work3,
-      title: "Resume Builder",
-      category: "design", 
-      link: "https://github.com/Rohithmatham12/Resume_Builder_",
+      icon: "bx bx-map-alt",
+      tileClass: "work_tile-2",
+      title: "TravelM8",
+      description: "AI-powered road trip copilot on AWS serverless + Neon Postgres, built entirely on free-tier APIs.",
+      category: "ai",
+      link: "https://github.com/Rohithmatham12/travelm8",
+      live: "https://travelm8app.vercel.app",
     },
     {
       id: 3,
-      image: Work4,
-      title: "Uber Clone",
-      category: "app", 
-      link: "https://github.com/Rohithmatham12/Uber_Clone_Practice",
+      icon: "bx bxl-slack",
+      tileClass: "work_tile-3",
+      title: "ContextBot for Slack",
+      description: "Slack bot that surfaces repo context and answers engineering questions in-channel.",
+      category: "ai",
+      link: "https://github.com/Rohithmatham12/contextbot-slack",
     },
     {
       id: 4,
       image: Work1,
       title: "Stock Analyzer",
+      description: "Java application for tracking and analyzing stock performance trends.",
       category: "web",
       link: "https://github.com/Rohithmatham12/StockAnalyzer",
     },
-    
-    
     {
       id: 5,
       image: Work5,
       title: "Object Detection",
-      category: "web", 
+      description: "Computer vision pipeline for real-time object detection and classification.",
+      category: "ml",
       link: "https://github.com/Rohithmatham12/Object-Detection",
     },
   ];
@@ -50,12 +54,12 @@ export const projectsData = [
         name: 'all',
     },
     {
+        name: 'ai',
+    },
+    {
         name: 'web',
     },
     {
-        name: 'app',
-    },
-    {
-        name: 'design',
+        name: 'ml',
     },
   ];

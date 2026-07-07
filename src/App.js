@@ -8,6 +8,7 @@ import Skills from './components/skills/Skills';
 /*import Services from './components/services/Services';*/
 import Qualification from "./components/qualifications/Qualification";
 import Work from "./components/work/Work";
+import OpenSource from "./components/opensource/OpenSource";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
@@ -42,6 +43,7 @@ const App = () => {
     {/*<Services />*/}
     <Qualification />
     <Work />
+    <OpenSource />
     <Contact />
     </main>
 

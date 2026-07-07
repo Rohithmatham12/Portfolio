@@ -54,9 +54,10 @@ const Data = () => {
                   ></path>
                 </svg>
         </h1>
-        <h3 className="home_subtitle">Full Stack Developer</h3>
+        <h3 className="home_subtitle">Software Engineer &middot; AI Tooling &amp; Open Source</h3>
         <p className="home_description">
-            I am a Problem Solver, Proactive learner, dedicated to staying abreast of industry trends and emerging technologies.
+            I build AI developer tools and contribute to open source at Apple, Meta, NVIDIA, and AMD.
+            Creator of ContextOS and TravelM8.
         </p>
 
         <a href="#contact" className="button button--flex">

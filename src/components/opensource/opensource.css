@@ -1,0 +1,80 @@
+.opensource_container {
+    grid-template-columns: repeat(3, 300px);
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.opensource_card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    display: block;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.opensource_card:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.opensource_header {
+    display: flex;
+    align-items: baseline;
+    column-gap: 0.5rem;
+    margin-bottom: var(--mb-0-5);
+}
+
+.opensource_org {
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+    font-size: var(--normal-font-size);
+}
+
+.opensource_repo {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+}
+
+.opensource_title {
+    font-size: var(--small-font-size);
+    line-height: 1.5;
+    margin-bottom: var(--mb-1);
+}
+
+.opensource_link {
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.opensource_all {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    text-decoration: underline;
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 992px) {
+    .opensource_container {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .opensource_container {
+        grid-template-columns: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .opensource_container {
+        grid-template-columns: 1fr;
+    }
+}
